@@ -22,6 +22,10 @@ configure do
   end
 end
 
+before do
+  response.headers["Access-Control-Allow-Origin"] = "*"
+end
+
 get '/universities' do
   @universities = University.all
   
