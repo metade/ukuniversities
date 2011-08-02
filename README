@@ -1,0 +1,17 @@
+= UK Universities
+
+A simple web service for UK Universities data written in Ruby/Sinatra for Young Rewired State 2011.
+
+== Examples
+
+All Universities:
+http://ukuniversities.heroku.com/universities.json
+http://ukuniversities.heroku.com/universities.kml
+
+All Russell Group Universities:
+http://ukuniversities.heroku.com/universities/by/group/russell.json
+http://ukuniversities.heroku.com/universities/by/group/russell.kml
+
+All Universities costing less than £9000 in fees:
+http://ukuniversities.heroku.com/universities/by/fees/lt/9000.json
+http://ukuniversities.heroku.com/universities/by/fees/lt/9000.xml
